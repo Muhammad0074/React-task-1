@@ -9,13 +9,13 @@ export default function Contact() {
                 <div className="c-icon">
                     <i className="fa-solid fa-star"></i>
                 </div>
-                <div className="form-container">
-                    <div className="form ">
-                        <input className='input  ' type="text" placeholder='NAME'/>
-                        <input className='input ' type="text" placeholder='Email Address'/>
-                        <input className='input ' type="text" placeholder='Phone Number'/>
-                        <input className='input ' type="text" placeholder='Message'/>
-                        <button className='btn button'>send</button>
+                <div className="form-container ">
+                    <div className="form">
+                        <input className='input' type="text" placeholder='NAME'/>
+                        <input className='input' type="text" placeholder='Email Address'/>
+                        <input className='input' type="text" placeholder='Phone Number'/>
+                        <input className='input' type="text" placeholder='Message'/>
+                        <button className='btn button'>send message</button>
                     </div>
                 </div>
             </div>

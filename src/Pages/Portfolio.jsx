@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <section id='Portfolio'>
             <div className="portfolio-container mb-5 pb-5">
-                <h2>PORTFOLIO</h2>
+                <h2>PORTFOLIO COMPONENT</h2>
                 <div className="p-icon">
                     <i className="fa-solid fa-star"></i>
                 </div>

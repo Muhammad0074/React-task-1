@@ -1,13 +1,14 @@
 import React from "react";
 import "./Navbar.css";
+import { Link , NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-custom sticky-top ">
       <div className="container">
-        <a className="navbar-brand nav-brand" href="#">
-          START REACT
-        </a>
+        <Link className="navbar-brand nav-brand" to="/">
+          START FRAMEWORK
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -24,13 +25,13 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link portfolio-link" href="#Portfolio">PORTFOLIO</a>
+              <NavLink className="nav-link " to="/portfolio">PORTFOLIO</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#About">ABOUT</a>
+              <NavLink className="nav-link" to="/about">ABOUT</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Contact">CONTACT</a>
+              <NavLink className="nav-link" to="/contact">CONTACT</NavLink>
             </li>
           </ul>
         </div>
