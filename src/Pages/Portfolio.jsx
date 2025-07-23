@@ -12,32 +12,32 @@ export default function Portfolio() {
                 <div className='cards-container row g-5 ps-3 pe-3 pb-5'>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\1.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/1.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\2.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/2.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\3.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/3.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\4.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/4.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\5.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/5.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="card portfolio-card">
-                            <img src="src\images\6.png" className="card-img-top" alt="card picture" />
+                            <img src="/images/6.png" className="card-img-top" alt="card picture" />
                         </div>
                     </div>
                 </div>
